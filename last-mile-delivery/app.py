@@ -43,12 +43,12 @@ GREY = "#6C757D"
 # app stays fast and doesn't reload the file on every click.
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/last_mile_deliveries_clean.csv")
+    return pd.read_csv(BASE_DIR / "data" / "last_mile_deliveries_clean.csv")
 
 @st.cache_resource
 def load_model():
-    model = joblib.load("data/delivery_model.pkl")
-    columns = joblib.load("data/model_columns.pkl")
+    model = joblib.load(BASE_DIR / "data" / "delivery_model.pkl")
+    columns = joblib.load(BASE_DIR / "data" / "model_columns.pkl")
     return model, columns
 
 df = load_data()
