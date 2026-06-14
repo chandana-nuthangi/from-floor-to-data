@@ -24,6 +24,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import joblib
+from pathlib import Path
+BASE_DIR = Path(__file__).parent
 
 # --- Corporate colors (same as our charts) ---
 DARK_BLUE = "#003366"
