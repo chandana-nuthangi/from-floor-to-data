@@ -12,6 +12,6 @@ modeling real-world supply chain patterns.
 
 ### 🚚 [Last Mile Delivery Analytics & Delay Predictor](last-mile-delivery/)
 Predicts delivery delays before the van leaves the depot.
-🔗 [Live demo](last-mile-delivery README link)
+🔗 [Try the interactive app here](https://from-floor-to-data-5l6icpyuuxapolnh9i6qtk.streamlit.app/)
 
 ---
